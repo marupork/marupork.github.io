@@ -1,0 +1,6 @@
+# Aliases
+alias ga='git add'
+alias gs='git status'
+alias gcm='git commit -m'
+alias gg='git gui &'
+alias gk='gitk &'

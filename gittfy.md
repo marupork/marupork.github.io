@@ -1,3 +1,0 @@
-# Gittigy
-
-## Rebase to develop
