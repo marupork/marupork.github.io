@@ -4,18 +4,10 @@ layout: default
 
 # < mr >
 
-## setup
+## ssh
 
-1. [Workspace](./setup/workspace-setup.md)
-1. [Recurring Errors](./setup/encountered-errors.md)
-1. [Oracle Installation with Liquibase Maven Plugin](./setup/oracle-liquibase-plugin-setup.md)
+- [Create SFTP Server Using atmoz/sftp Docker Image](./ssh/create-sftp-server-using-atmozsftp-docker-image.md)
 
-## fun-damentals
+## api
 
-1. [git](./fundamentals/gittify.md)
-1. [API Blueprint](./fundamentals/api-blueprint.md)
-1. [Rest Template & Unit Test](./fundamentals/rest-template-unit-test.md)
-
-## projects
-
-1. demo-course-enrollment
+- [API Blueprint](./api/api-blueprint.md)

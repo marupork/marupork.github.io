@@ -1,0 +1,13 @@
+version: "3"
+
+version: "3"
+
+services:
+  sftp:
+    image: atmoz/sftp
+    ports:
+      - "2222:22"
+    command: sftp_ssh_user:pwd:1001::files
+    volumes:
+      - ~/uploads:/home/sftp_ssh_user/files
+      - ~/.ssh/id_rsa.pub:/home/sftp_ssh_user/.ssh/keys/id_rsa.pub:ro

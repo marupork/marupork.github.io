@@ -1,0 +1,8 @@
+version: "3"
+
+services:
+    sftp:
+        image: atmoz/sftp
+        ports:
+        - "2222:22"
+        command: sftp_user:pwd:1001::upload
